@@ -11,14 +11,14 @@ The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
 Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 
-## Accuracies
-Final test accuracy : 90.78125%
-Final training loss : 0.335500
-Final test loss : 0.294102
-
-Unlabeled test dataset accuracy (public) : 85.100%
-Unlabeled test dataset accuracy (private) : 84.300%
-
+## Final Metrics
+| Metric | Value |
+|:---|:---|
+| Final Test Accuracy | 90.78125% |
+| Final Training Loss | 0.335500 |
+| Final Test Loss | 0.294102 |
+| Unlabeled Test Dataset Accuracy (Public) | 85.100% |
+| Unlabeled Test Dataset Accuracy (Private) | 84.300% |
 
 
 ## Hyperparameters
