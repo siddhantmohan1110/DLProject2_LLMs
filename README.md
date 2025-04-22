@@ -17,4 +17,8 @@ Unlabeled test dataset accuracy (public) : 85.100%
 
 Unlabeled test dataset accuracy (private) : 84.300%
 
+Training and validation loss v steps
+![image](https://github.com/user-attachments/assets/fcbbc273-ae2e-4d68-8e09-64a4c3f99093)
 
+Validation accuracy v steps
+![image](https://github.com/user-attachments/assets/c5fb4bf6-37c6-4d29-84c0-a3675a36c913)
