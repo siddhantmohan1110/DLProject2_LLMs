@@ -7,4 +7,7 @@ Competed in this [Kaggle competition](https://www.kaggle.com/competitions/deep-l
 
 The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
-Final test accuracy :
+Final test accuracy : 90.78125%
+
+Unlabeled test dataset accuracy (public) : 85.100%
+Unlabeled test dataset accuracy (private) : 84.300%
