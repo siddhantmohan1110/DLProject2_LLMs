@@ -11,7 +11,7 @@ The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
 Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 
-##Accuracies
+## Accuracies
 Final test accuracy : 90.78125%
 
 Unlabeled test dataset accuracy (public) : 85.100%
@@ -37,9 +37,9 @@ Unlabeled test dataset accuracy (private) : 84.300%
 | Optimization Config | Optimizer | Adam |
 | Optimization Config | Learning Rate Scheduler | Linear |
 
-##Training and validation loss v steps
+## Training and validation loss v steps
 ![image](https://github.com/user-attachments/assets/fcbbc273-ae2e-4d68-8e09-64a4c3f99093)
 
 
-##Validation accuracy v steps
+## Validation accuracy v steps
 ![image](https://github.com/user-attachments/assets/c5fb4bf6-37c6-4d29-84c0-a3675a36c913)
