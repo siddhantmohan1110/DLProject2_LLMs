@@ -11,37 +11,25 @@ The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
 Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 
-Hyperparameter | Value
+## Hyperparameters
+| Category | Hyperparameter | Value |
+|:---|:---|:---|
+| Model Config | Maximum Token Length | 128 |
+| Model Config | LoRA Ranks Across 12 Layers | [8, 8, 8, 8, 16, 16, 16, 16, 32, 32, 32, 32] |
+| Model Config | LoRA Alphas Across 12 Layers | [16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64] |
+| Model Config | Target Modules | ['Query'] |
+| Training Config | Number of Epochs | 4 |
+| Training Config | Total Training Steps | 29,840 |
+| Training Config | Logging Steps | 100 |
+| Training Config | Train Batch Size | 16 |
+| Training Config | Eval Batch Size | 16 |
+| Training Config | Dataloader Num Workers | 4 |
+| Optimization Config | Learning Rate | 3e-6 |
+| Optimization Config | Warmup Ratio | 0.06 |
+| Optimization Config | Weight Decay | 0.01 |
+| Optimization Config | Optimizer | Adam |
+| Optimization Config | Learning Rate Scheduler | Linear |
 
-Maximum Token Length | 128
-
-LoRA Ranks Across 12 Layers | [8, 8, 8, 8, 16, 16, 16, 16, 32, 32, 32, 32]
-
-LoRA Alphas Across 12 Layers | [16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64]
-
-Target Modules | ['Query']
-
-Number of Epochs | 4
-
-Total Training Steps | 29,840
-
-Logging Steps | 100
-
-Train Batch Size | 16
-
-Eval Batch Size | 16
-
-Dataloader Num Workers | 4
-
-Learning Rate | 3e-6
-
-Warmup Ratio | 0.06
-
-Weight Decay | 0.01
-
-Optimizer | Adam
-
-Learning Rate Scheduler | Linear
 
 Final test accuracy : 90.78125%
 
