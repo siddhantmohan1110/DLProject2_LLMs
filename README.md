@@ -13,10 +13,13 @@ Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 
 ## Accuracies
 Final test accuracy : 90.78125%
+Final training loss : 0.335500
+Final test loss : 0.294102
 
 Unlabeled test dataset accuracy (public) : 85.100%
-
 Unlabeled test dataset accuracy (private) : 84.300%
+
+
 
 ## Hyperparameters
 | Category | Hyperparameter | Value |
