@@ -11,6 +11,23 @@ The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
 Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 
+Hyperparameters
+Maximum token length = 128
+LoRA ranks across 12 layers = [8, 8, 8, 8, 16, 16, 16, 16, 32, 32, 32, 32]
+LoRA alphas across 12 layers = [16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64]
+Target_modules = ['Query',]
+Number of epochs = 4
+Number of steps = 29840
+Logging steps = 100
+Train batch size = 16
+Eval batch size = 16
+Dataloader num_workers = 4
+Learning Rrate = 3e-6
+Warmup ratio = 0.06
+Weight decay = 0.01
+Optimizer = adam
+lr_scheduler = linear
+
 Final test accuracy : 90.78125%
 
 Unlabeled test dataset accuracy (public) : 85.100%
