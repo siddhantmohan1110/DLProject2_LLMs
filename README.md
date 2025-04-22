@@ -14,7 +14,7 @@ Project report : ```DeepLearningProject2_sm12766_am15111_jd5829.pdf```
 ## Hyperparameters
 | Category | Hyperparameter | Value |
 |:---|:---|:---|
-| Model Config | Maximum Token Length | 128 |
+| Data Config | Maximum Token Length | 128 |
 | Model Config | LoRA Ranks Across 12 Layers | [8, 8, 8, 8, 16, 16, 16, 16, 32, 32, 32, 32] |
 | Model Config | LoRA Alphas Across 12 Layers | [16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64] |
 | Model Config | Target Modules | ['Query'] |
