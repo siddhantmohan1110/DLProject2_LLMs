@@ -5,6 +5,6 @@ This project carries out fine-tuning of RoBERTa, an open-source LLM based on BER
 
 Competed in this [Kaggle competition](https://www.kaggle.com/competitions/deep-learning-spring-2025-project-2/leaderboard) and achieved rank 109. The prediction file achieving this result is ```inference_output.csv```.
 
-The notebook contains all code, logs and results.
+The notebook ```roberta_with_lora.ipynb``` contains all code, logs and results.
 
 Final test accuracy :
